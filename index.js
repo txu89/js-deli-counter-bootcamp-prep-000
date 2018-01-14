@@ -23,7 +23,7 @@ function currentLine(katzDeliLine) {
     for (i; i < katzDeliLine.length - 1; i++) {
       line += `${i + 1}. ${katzDeliLine[i]}, `
     }
-    line += `${i + 1}. ${katzDeliLine[i]}.`
+    line += `${i + 1}. ${katzDeliLine[i]}`
   }
   return line
 }
